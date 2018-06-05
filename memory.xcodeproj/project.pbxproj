@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50E9B5C203DD21C00A52061 /* prehistoric.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50E9B5B203DD21C00A52061 /* prehistoric.ttf */; };
 		F54FB5D5202EF6D000E00C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB5D4202EF6D000E00C56 /* AppDelegate.swift */; };
 		F54FB5D7202EF6D000E00C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB5D6202EF6D000E00C56 /* ViewController.swift */; };
 		F54FB5DA202EF6D000E00C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FB5D8202EF6D000E00C56 /* Main.storyboard */; };
 		F54FB5DC202EF6D000E00C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54FB5DB202EF6D000E00C56 /* Assets.xcassets */; };
 		F54FB5DF202EF6D000E00C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FB5DD202EF6D000E00C56 /* LaunchScreen.storyboard */; };
-		F54FB5EA202EF6D000E00C56 /* memoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB5E9202EF6D000E00C56 /* memoryTests.swift */; };
-		F54FB5F5202EF6D000E00C56 /* memoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB5F4202EF6D000E00C56 /* memoryUITests.swift */; };
+		F54FB605202F033B00E00C56 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F54FB604202F033A00E00C56 /* 1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50E9B5B203DD21C00A52061 /* prehistoric.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prehistoric.ttf; sourceTree = "<group>"; };
 		F54FB5D1202EF6D000E00C56 /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54FB5D4202EF6D000E00C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54FB5D6202EF6D000E00C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +43,8 @@
 		F54FB5DE202EF6D000E00C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54FB5E0202EF6D000E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54FB5E5202EF6D000E00C56 /* memoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54FB5E9202EF6D000E00C56 /* memoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoryTests.swift; sourceTree = "<group>"; };
-		F54FB5EB202EF6D000E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54FB5F0202EF6D000E00C56 /* memoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54FB5F4202EF6D000E00C56 /* memoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoryUITests.swift; sourceTree = "<group>"; };
-		F54FB5F6202EF6D000E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54FB604202F033A00E00C56 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				F54FB5D3202EF6D000E00C56 /* memory */,
-				F54FB5E8202EF6D000E00C56 /* memoryTests */,
-				F54FB5F3202EF6D000E00C56 /* memoryUITests */,
 				F54FB5D2202EF6D000E00C56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +93,8 @@
 		F54FB5D3202EF6D000E00C56 /* memory */ = {
 			isa = PBXGroup;
 			children = (
+				F50E9B5B203DD21C00A52061 /* prehistoric.ttf */,
+				F54FB603202F031500E00C56 /* Sounds */,
 				F54FB5D4202EF6D000E00C56 /* AppDelegate.swift */,
 				F54FB5D6202EF6D000E00C56 /* ViewController.swift */,
 				F54FB5D8202EF6D000E00C56 /* Main.storyboard */,
@@ -107,22 +105,12 @@
 			path = memory;
 			sourceTree = "<group>";
 		};
-		F54FB5E8202EF6D000E00C56 /* memoryTests */ = {
+		F54FB603202F031500E00C56 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				F54FB5E9202EF6D000E00C56 /* memoryTests.swift */,
-				F54FB5EB202EF6D000E00C56 /* Info.plist */,
+				F54FB604202F033A00E00C56 /* 1.wav */,
 			);
-			path = memoryTests;
-			sourceTree = "<group>";
-		};
-		F54FB5F3202EF6D000E00C56 /* memoryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F54FB5F4202EF6D000E00C56 /* memoryUITests.swift */,
-				F54FB5F6202EF6D000E00C56 /* Info.plist */,
-			);
-			path = memoryUITests;
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54FB5DF202EF6D000E00C56 /* LaunchScreen.storyboard in Resources */,
+				F50E9B5C203DD21C00A52061 /* prehistoric.ttf in Resources */,
 				F54FB5DC202EF6D000E00C56 /* Assets.xcassets in Resources */,
+				F54FB605202F033B00E00C56 /* 1.wav in Resources */,
 				F54FB5DA202EF6D000E00C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54FB5EA202EF6D000E00C56 /* memoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54FB5F5202EF6D000E00C56 /* memoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
